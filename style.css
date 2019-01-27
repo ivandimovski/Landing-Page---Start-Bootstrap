@@ -1,0 +1,350 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;  
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.navbar{
+  position: relative;
+  background-color: #f8f9fa;
+  padding: .5rem 1rem;
+}
+nav .container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container{ 
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.navbar-logo{
+  color: rgba(0,0,0,.9);
+  font-size: 1.45rem;
+  padding: .3125rem 0;
+  margin-right: 1rem;
+}
+.navbar-btn{
+  color: #fff;
+  background-color: #007bff;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding: .375rem .75rem;
+  border: 1px solid transparent;
+  border-radius: .25rem; 
+}
+.navbar-btn:hover{
+  background-color: #0069d9;
+  border-color: #0062cc;
+  -webkit-transition-duration: 0.4s;
+}
+a{
+  text-decoration: none;
+}
+header{
+  background-image: url("img/zadatak.jpg");
+  background-size: cover;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  text-align: center; 
+}
+.header-all{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+  width: 100%;
+  flex-direction: column;
+}
+.header-title{
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-title h1{
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.d-form{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 100%;
+}
+.form-all{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.d-email{
+  width: 100%;
+  margin-right: .5rem;
+}
+.d-button{
+  width: 100%;
+  display: block;
+  margin-right: .5rem;
+}
+.form-input{
+  height: 2.875rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  border-radius: .3rem;
+  width: 100%;
+  padding-left: 1rem;
+  margin-bottom: .5rem;
+}
+.form-button{
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  border-radius: .3rem;
+  background-color: #007bff;
+  color: #fff;
+  width: 100%;
+  margin-bottom: .5rem;
+}
+.form-button:hover{
+  background-color: #0069d9;
+  border-color: #0062cc;
+  -webkit-transition-duration: 0.4s;
+}
+.sec-icons{
+  background-color: #f8f9fa;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.sec-item{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.items{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center; 
+}
+.icon{
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon i{
+  font-size: 4.5rem;
+  color: #007bff;
+}
+.icon i:hover{
+  transform: scale(1.1);
+}
+.sec-item h3{
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.sec-item p{
+  font-size: 1.25rem;
+  font-weight: 300;
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+.partof-sect-2{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0;
+  margin-right: 0;
+}
+.photo-1{
+  background-image: url("img/zad2tel.jpg");
+  background-size: cover;
+}
+.photo-2{
+  background-image: url("img/zad2code.jpg");
+  background-size: cover;
+}
+.photo-3{
+  background-image: url("img/zad2dete.jpg");
+  background-size: cover;
+}
+.photo{
+  min-height: 30rem;
+  width: 100%;
+}
+.text{
+  margin-bottom: auto;
+  margin-top: auto;
+  padding: 3rem;
+}
+h2{
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+.text p{
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 0;
+}
+.people{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: #f8f9fa;
+}
+.people h2{
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.picture{
+  border-radius: 100%;
+  width: 12rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 5px 0 #adb5bd
+}
+h5{
+  font-size: 1.25rem;
+  margin-top: 0;
+  line-height: 1.2;
+  margin-bottom: .5rem;
+}
+.sect-4{
+  position: relative;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-image: url("img/zadatak.jpg");
+  background-size: cover;
+  text-align: center;
+}
+footer{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #f8f9fa;
+}
+.about-us{
+  text-align: center;
+}
+.social-networks{
+  text-align: center;
+}
+.list-ul{
+  padding-left: 0;
+}
+.list-item{
+  display: inline-block;
+}
+a{
+  color: #007bff;
+  text-decoration: none;
+}
+.logo{
+  font-size: 2em;
+  text-align: center;
+  width: 1.25em;
+}
+.r-li{
+  margin-right: 1rem;
+}
+.l-li{
+  margin-right: .5rem;
+}
+.small-p{
+  font-size: 80%;
+  font-weight: 400;
+  color: #6c757d;
+  margin-top: 0;
+}
+.l-li a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+.r-li a:hover{
+  color: #0056b3;
+}
+@media(min-width:576px){
+  .container{
+    max-width: 540px;
+  }
+}
+@media(min-width:768px){
+  .container{
+    max-width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  header{
+    padding-bottom: 12rem;
+    padding-top: 12rem;
+  }
+  .header-title h1{
+    font-size: 3rem;
+  }
+  .d-form{
+    max-width: 83%;
+  }
+  .d-email{
+    max-width: 70%;
+  }
+  .d-button{
+    max-width: 25%;
+  }
+  .text{
+    padding: 7rem;
+  }
+}
+@media(min-width:992px){
+  .container{
+    max-width: 960px;
+  }
+  .d-form{
+    max-width: 66%;
+  }
+  .items{
+    width: 33%;
+  }
+  .photo-1, .photo-3{
+    order: 2;
+  }
+  .text{
+    max-width: 50%;
+  }
+  .text-1, .text-3 {
+    order: 1;
+  }
+  .photo{
+    width: 50%;
+  }
+  .about-us{
+    max-width: 50%;
+    text-align: left;
+  }
+  .social-networks{
+    max-width: 50%;
+    text-align: right;
+  }
+  .about-us{
+    text-align: left;
+  }
+}
+@media(min-width:1200px){
+  .container{
+    max-width: 1200px;
+  }
+  .header-title{
+    max-width: 75%;
+  }
+  .d-form{
+    max-width: 58%;
+  }
+}
